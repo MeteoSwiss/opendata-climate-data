@@ -1,6 +1,5 @@
 # D. Climate Data
-... 
-MeteoSwiss provides both Homogenous Data Series (no. 1 & 2), Spatial Representations (no. 3, 4 & 5), Normals (no. 6 & 7) and Scenarios (no. 8):
+MeteoSwiss provides Homogenous Data Series (no. 1, 2), Spatial Representations (no. 3, 4, 5), Normals (6, 7) and Scenarios (8). ...
 
 1. [Climate stations](#1-climate-stations)
 2. [Climate precipitation stations](#2-climate-precipitation-stations)
@@ -14,25 +13,193 @@ MeteoSwiss provides both Homogenous Data Series (no. 1 & 2), Spatial Representat
 ---
 
 ## 1. Climate stations
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 2. Climate precipitation stations
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 3. Ground-based spatial climate data
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
+
+Data format is [`...`](...) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+*See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+*See (example!) [station metadata file](...).*
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 4. Satellite-based spatial climate data
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
+
+Data format is [`...`](...) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+*See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+*See (example!) [station metadata file](...).*
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 5. Radar-based spatial climate data
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
+
+Data format is [`...`](...) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+*See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+*See (example!) [station metadata file](...).*
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 6. Climate normals
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 ## 7. Spatial climate normals
+... 
+
 ...
 
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
+
+Data format is [`...`](...) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+*See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+*See (example!) [station metadata file](...).*
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
+
 ## 8. Climate scenarios
+... 
+
 ...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
