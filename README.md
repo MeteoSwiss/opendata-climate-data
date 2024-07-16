@@ -1,5 +1,5 @@
 # D. Climate Data
-Climate Data consists of homogenous data series (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
+Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
 1. [Climate stations](#1-climate-stations)
 2. [Climate precipitation stations](#2-climate-precipitation-stations)
