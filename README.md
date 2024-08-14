@@ -3,14 +3,14 @@
 # C. Climate Data
 Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
-1. [Climate stations](#1-climate-stations)
-2. [Climate precipitation stations](#2-climate-precipitation-stations)
-3. [Ground-based spatial climate data](#3-ground-based-spatial-climate-data)
-4. [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data)
-5. [Radar-based spatial climate data](#5-radar-based-spatial-climate-data)
-6. [Climate normals](#6-climate-normals)
-7. [Spatial climate normals](#7-spatial-climate-normals)
-8. [Climate scenarios](#8-climate-scenarios)
+1. [Climate stations](#1-climate-stations) :yellow_circle: *documentation upcoming*
+2. [Climate precipitation stations](#2-climate-precipitation-stations) :yellow_circle: *documentation upcoming*
+3. [Ground-based spatial climate data](#3-ground-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+4. [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+5. [Radar-based spatial climate data](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+6. [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
+7. [Spatial climate normals](#7-spatial-climate-normals) :yellow_circle: *documentation upcoming*
+8. [Climate scenarios](#8-climate-scenarios) :yellow_circle: *documentation upcoming*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=BER&chart=hour&table=false) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=LUG&chart=hour&table=false)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
