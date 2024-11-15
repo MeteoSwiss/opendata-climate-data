@@ -118,35 +118,35 @@ See e.g. MeteoSwiss' [...](...).
 ## 4. Satellite-based spatial climate data
 ... 
 
-| PERIOD_TX      | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | FILENAME                              |
-| -------------- | ---------------------- | ------------------ | ---------------- | ------------------------------------- |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SIS.H_ch02.lonlat                 |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SIS-No-Horizon.H_ch02.lonlat      |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR.H_ch02.lonlat              |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR-No-Horizon.H_ch02.lonlat   |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIF-No-Horizon.H_ch02.lonlat   |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDNI-No-Horizon.H_ch02.lonlat   |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISCF-No-Horizon.H_ch02.lonlat    |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIRCF-No-Horizon.H_ch02.lonlat |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.ALB.H_ch02.lonlat                 |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SIS.D_ch02.lonlat                 |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SIS-No-Horizon.D_ch02.lonlat      |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR.D_ch02.lonlat              |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR-No-Horizon.D_ch02.lonlat   |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.ALB.D_ch02.lonlat                 |
-| previous_day   | LL84                   | EPSG:4326          | NETCDF           | msg.CFC.D_ch02.lonlat                 |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.SIS.M_ch02.lonlat                 |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR.M_ch02.lonlat              |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.SIS-No-Horizon.M_ch02.lonlat      |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR-No-Horizon.M_ch02.lonlat   |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.ALB.M_ch02.lonlat                 |
-| previous_month | LL84                   | EPSG:4326          | NETCDF           | msg.CFC.M_ch02.lonlat                 |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.SIS.Y_ch02.lonlat                 |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.SIS-No-Horizon.Y_ch02.lonlat      |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR.Y_ch02.lonlat              |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.SISDIR-No-Horizon.Y_ch02.lonlat   |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.CFC.Y_ch02.lonlat                 |
-| previous_year  | LL84                   | EPSG:4326          | NETCDF           | msg.ALB.Y_ch02.lonlat                 |
+| FILENAME                              | PERIOD_TX      | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX |
+| ------------------------------------- | -------------- | ---------------------- | ------------------ | ---------------- |
+| msg.ALB.H_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.ALB.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.ALB.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.ALB.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| msg.CFC.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.CFC.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.CFC.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS.H_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISCF-No-Horizon.H_ch02.lonlat    | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIF-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR.H_ch02.lonlat              | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR.D_ch02.lonlat              | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR.M_ch02.lonlat              | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR.Y_ch02.lonlat              | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIRCF-No-Horizon.H_ch02.lonlat | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR-No-Horizon.D_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR-No-Horizon.M_ch02.lonlat   | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDIR-No-Horizon.Y_ch02.lonlat   | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SISDNI-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS-No-Horizon.H_ch02.lonlat      | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS-No-Horizon.D_ch02.lonlat      | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS-No-Horizon.M_ch02.lonlat      | previous_month | LL84                   | EPSG:4326          | NETCDF           |
+| msg.SIS-No-Horizon.Y_ch02.lonlat      | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
