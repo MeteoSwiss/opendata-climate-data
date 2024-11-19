@@ -3,14 +3,14 @@
 # C. Climate Data
 Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
-1. [Climate stations](#1-climate-stations) :yellow_circle: *documentation upcoming*
-2. [Climate precipitation stations](#2-climate-precipitation-stations) :yellow_circle: *documentation upcoming*
-3. [Ground-based spatial climate data](#3-ground-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-4. [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-5. [Radar-based spatial climate data](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-6. [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
-7. [Spatial climate normals](#7-spatial-climate-normals) :yellow_circle: *documentation upcoming*
-8. [Climate scenarios](#8-climate-scenarios) :yellow_circle: *documentation upcoming*
+- C1 - [Climate stations](#1-climate-stations)
+- C2 - [Climate precipitation stations](#2-climate-precipitation-stations) :yellow_circle: *documentation upcoming*
+- C3 - [Ground-based spatial climate data](#3-ground-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C4 - [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C5 - [Radar-based spatial climate data](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C6 - [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
+- C7 - [Spatial climate normals](#7-spatial-climate-normals) :yellow_circle: *documentation upcoming*
+- C8 - [Climate scenarios](#8-climate-scenarios) :yellow_circle: *documentation upcoming*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=BER&chart=hour&table=false) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=LUG&chart=hour&table=false)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
@@ -67,6 +67,8 @@ See example [station metadata file](...).
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
+<br>
+
 ## 3. Ground-based spatial climate data
 Ground-based spatial climate data are statistically derived from *surface data*.
 
@@ -116,6 +118,8 @@ See example data files: [`...`](...).
 
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
+
+<br>
 
 ## 4. Satellite-based spatial climate data
 Spatial climate data, which contain radiation and cloud cover parameters, are derived from [MeteoSat satellite data](...) together with *surface data*.
@@ -171,6 +175,8 @@ See example data files: [`...`](...).
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
+<br>
+
 ## 5. Radar-based spatial climate data
 ... 
 
@@ -195,6 +201,8 @@ See example data files: [`...`](...).
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
+<br>
+
 ## 6. Climate normals
 ... 
 
@@ -218,6 +226,8 @@ See example [station metadata file](...).
 
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
+
+<br>
 
 ## 7. Spatial climate normals
 ... 
@@ -254,6 +264,8 @@ See example data files: [`...`](...).
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
+<br>
+
 ## 8. Climate scenarios
 ... 
 
@@ -277,3 +289,5 @@ See example [station metadata file](...).
 
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
+
+<br>
