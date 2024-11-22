@@ -78,7 +78,7 @@ See e.g. MeteoSwiss' [...](...).
 <br>
 
 ## C3 - Ground-based spatial climate data
-The following *grid data products* are statistically derived from *surface data* (see the links for the detailed product documentations):
+The following *grid data products* are statistically derived from *surface data* (see links for detailed product documentations):
 
 **Precipitation**
 - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
@@ -128,36 +128,55 @@ The following *example* data files are available for download:
 <br>
 
 ## C4 - Satellite-based spatial climate data
-The following *grid data products* are statistically derived from *surface data* (see the links for the detailed product documentations):
+The following *grid data products* are derived from [MeteoSat satellite data](...) together with *surface data* (see links for detailed product documentations):
 
+**Global Radiation**
+- *Hourly*, [Daily, Monthly and Yearly *satellite-based* Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
 
-Spatial climate data, which contain radiation and cloud cover parameters, are derived from [MeteoSat satellite data](...) together with *surface data*.
+**Diffuse Radiation**
+- ...
 
-*See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
+**Direct Radiation**
+- ...
 
-| Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                              | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
-| ------------------------------ | -------------------- | ------------------ | ------------------------ | ------------------------------------- | ---------------------- | ------------------ |
+**Cloud Fractional Cover**
+- ...
+
+<br>
+
+Coordinate system is [`WGS84`](https://www.swisstopo.admin.ch/en/reference-system-as-basis-for-coordinates) / [`EPSG:4326`](https://epsg.io/4326). 
+
+Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 0.1 MB per file.
+
+<br>
+
+The following *example* data files are available for download:
+
+| *Parameter*                    | *Product*            | Time interval      | Update cycle             | *Example* Data files (see STAC Assets) |
+|:-------------------------------|:---------------------|:-------------------|:-------------------------|:---------------------------------------|
+| **Global Radiation**           |                      | Hourly             | previous_day             | [msg_sis_h_ch02.lonlat](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-satellite-derived-grid/items/ch?.language=en) |
+|                                |                      | Daily              | previous_day             | *[msg.SIS.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | Monthly            | previous_month           | *[msg.SIS.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.M_ch02.lonlat_20210401000000.nc)* |
+|                                |                      | Yearly             | previous_year            | *[msg.SIS.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SIS.Y_ch02.lonlat_20210101000000.nc)* |
+| **Diffuse Radiation**          |                      | Hourly             | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat    |
+|                                |                      | D ?                |                          | *[msg.SISDIF-No-Horizon.D](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc)* |
+|                                |                      | M ?                |                          | *[msg.SISDIF-No-Horizon.M](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc)* |
+|                                |                      | Y ?                |                          | *[msg.SISDIF-No-Horizon.Y](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
+| **Direct Radiation**           |                      | H                  | previous_day             | msg.SISDIR.H_ch02.lonlat               |
+|                                |                      | Daily              | previous_day             | msg.SISDIR.D_ch02.lonlat               |
+|                                |                      | Monthly            | previous_month           | msg.SISDIR.M_ch02.lonlat               |
+|                                |                      | Yearly             | previous_year            | msg.SISDIR.Y_ch02.lonlat               |
+| **Cloud Fractional Cover**     |                      | H ?                |                          |                                        |
+|                                |                      | Daily              | previous_day             | msg.CFC.D_ch02.lonlat                  |
+|                                |                      | Monthly            | previous_month           | msg.CFC.M_ch02.lonlat                  |
+|                                |                      | Yearly             | previous_year            | msg.CFC.Y_ch02.lonlat                  |
+
+<!--
 | ?                              |                      | H                  | previous_day             | msg.ALB.H_ch02.lonlat                 | LL84                   | EPSG:4326          |
 | ?                              |                      | D                  | previous_day             | msg.ALB.D_ch02.lonlat                 | LL84                   | EPSG:4326          |
 | ?                              |                      | M                  | previous_month           | msg.ALB.M_ch02.lonlat                 | LL84                   | EPSG:4326          |
 | ?                              |                      | Y                  | previous_year            | msg.ALB.Y_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded cloud fractional cover |                      | H ?                |                          |                                       |                        |                    |
-| Gridded cloud fractional cover |                      | D                  | previous_day             | msg.CFC.D_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded cloud fractional cover |                      | M                  | previous_month           | msg.CFC.M_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded cloud fractional cover |                      | Y                  | previous_year            | msg.CFC.Y_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded global radiation       |                      | H                  | previous_day             | msg.SIS.H_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded global radiation       |                      | D                  | previous_day             | msg.SIS.D_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded global radiation       |                      | M                  | previous_month           | msg.SIS.M_ch02.lonlat                 | LL84                   | EPSG:4326          |
-| Gridded global radiation       |                      | Y                  | previous_year            | msg.SIS.Y_ch02.lonlat                 | LL84                   | EPSG:4326          |
 | ?                              |                      | H                  | previous_day             | msg.SISCF-No-Horizon.H_ch02.lonlat    | LL84                   | EPSG:4326          |
-| Gridded diffuse radiation      |                      | H                  | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
-| Gridded diffuse radiation      |                      | D ?                |                          |                                       |                        |                    |
-| Gridded diffuse radiation      |                      | M ?                |                          |                                       |                        |                    |
-| Gridded diffuse radiation      |                      | Y ?                |                          |                                       |                        |                    |
-| Gridded direct radiation       |                      | H                  | previous_day             | msg.SISDIR.H_ch02.lonlat              | LL84                   | EPSG:4326          |
-| Gridded direct radiation       |                      | D                  | previous_day             | msg.SISDIR.D_ch02.lonlat              | LL84                   | EPSG:4326          |
-| Gridded direct radiation       |                      | M                  | previous_month           | msg.SISDIR.M_ch02.lonlat              | LL84                   | EPSG:4326          |
-| Gridded direct radiation       |                      | Y                  | previous_year            | msg.SISDIR.Y_ch02.lonlat              | LL84                   | EPSG:4326          |
 | ?                              |                      | H                  | previous_day             | msg.SISDIRCF-No-Horizon.H_ch02.lonlat | LL84                   | EPSG:4326          |
 | ?                              |                      | H                  | previous_day             | msg.SISDIR-No-Horizon.H_ch02.lonlat   | LL84                   | EPSG:4326          |
 | ?                              |                      | D                  | previous_day             | msg.SISDIR-No-Horizon.D_ch02.lonlat   | LL84                   | EPSG:4326          |
@@ -168,25 +187,7 @@ Spatial climate data, which contain radiation and cloud cover parameters, are de
 | ?                              |                      | D                  | previous_day             | msg.SIS-No-Horizon.D_ch02.lonlat      | LL84                   | EPSG:4326          |
 | ?                              |                      | M                  | previous_month           | msg.SIS-No-Horizon.M_ch02.lonlat      | LL84                   | EPSG:4326          |
 | ?                              |                      | Y                  | previous_year            | msg.SIS-No-Horizon.Y_ch02.lonlat      | LL84                   | EPSG:4326          |
-
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
-
-Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of *0.1* MB per file.
-
-See example data files: [`...`](...).
-
-### Parameter metadata
-*See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
-
-<!-- ### Codes -->
-<!-- ... -->
-
-### Station metadata
-*See example [station metadata file](...).*
-
-### Data visualisation
-See e.g. MeteoSwiss' [...](...).
+-->
 
 <br>
 
