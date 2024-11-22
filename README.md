@@ -194,7 +194,7 @@ See e.g. MeteoSwiss' [...](...).
 ... 
 
 | Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
-| ------------------------------ |  | --- | -------------- | ------------------------------------- | ---- | --------- |
+| ------------------------------ | -------------------- | --- | -------------- | ------------------------------------- | ---- | --------- |
 | ? | ? | M | previous_month | hailsizeM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           | CH1995 | EPSG:2056 |
 | ? | ? | M | previous_month | hailsizeanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       | CH1995 | EPSG:2056 |
 | ? | ? | Y | previous_year  | hailsizeY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           | CH1995 | EPSG:2056 |
