@@ -83,11 +83,7 @@ See e.g. MeteoSwiss' [...](...).
 <br>
 
 ## C3 - Ground-based spatial climate data
-These grid data products are statistically derived from *surface data*. The coordinate system is [Swiss LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) [EPSG:2056](https://epsg.io/2056). 
-
-Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data.
-
-The following parameters and *products* are available (see the links for the detailed product documentations):
+The following *parameters / data products* are available (see the links for detailed product documentations):
 - **Gridded Precipitation**
   - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
   - [Daily Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf)
@@ -99,17 +95,19 @@ The following parameters and *products* are available (see the links for the det
   - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
   - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
 
-<br>
+These grid data products are statistically derived from *surface data*. The coordinate system is [Swiss LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) [EPSG:2056](https://epsg.io/2056). 
 
-### 3.1. Data files
+Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data.
+
+### 3.1. *Example* Data files
 
 | Parameter                          | *Product*            | Data granularity   | Update cycle             | *Filename* / Example data files |
 | ---------------------------------- | -------------------- | ------------------ | ------------------------ | ------------------------------- |
-| Gridded precipitation              | Final analysis       | D                  | previous_month           | [RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc) |
-| Gridded precipitation              | Final analysis       | M                  | previous_month           | [RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc) |
-| Gridded precipitation              | Final analysis       | Y                  | previous_year            | [RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
-| Gridded precipitation              | Preliminary analysis | D                  | previous_day             | RprelimD_ch01h.swiss.lv95   |
-| Gridded precipitation              | ?                    | M                  | previous_month           | RanomM9120_ch01r.swiss.lv95 |
+| Gridded precipitation              | Preliminary analysis | D                  | previous_day             | *RprelimD_ch01h.swiss.lv95* |
+|                                    | Final analysis       | D                  | previous_month           | [RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc) |
+|                                    | Final analysis       | M                  | previous_month           | [RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc) |
+|                                    | Final analysis       | Y                  | previous_year            | [RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
+|                                    | ?                    | M                  | previous_month           | RanomM9120_ch01r.swiss.lv95 |
 | Gridded relative sunshine duration |                      | D                  | previous_day             | SrelD_ch01r.swiss.lv95      |
 | Gridded relative sunshine duration |                      | M                  | previous_month           | SrelM_ch01r.swiss.lv95      |
 | Gridded relative sunshine duration |                      | Y                  | previous_year            | SrelY_ch01r.swiss.lv95      |
