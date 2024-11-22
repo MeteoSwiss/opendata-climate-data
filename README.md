@@ -6,12 +6,8 @@ Climate Data consists of homogenous time series data (1, 2), spatial climate dat
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
 - C3 - [Ground-based spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
-- C4 - [Satellite-based spatial climate data - ...](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-  - Gridded cloud fractional cover
-  - Gridded global radiation
-  - Gridded diffuse radiation
-  - Gridded direct radiation
-- C5 - [Radar-based spatial climate data](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C4 - [Satellite-based spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C5 - [Radar-based spatial climate data - ...](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
   - ...
 - C6 - [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
 - C7 - [Spatial climate normals](#7-spatial-climate-normals) :yellow_circle: *documentation upcoming*
