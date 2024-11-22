@@ -134,13 +134,13 @@ The following *grid data products* are derived from [MeteoSat satellite data](..
 - *Hourly*, [Daily, Monthly and Yearly *satellite-based* Global Radiation](https://www.meteoswiss.admin.ch/dam/jcr:b0bbcbac-1a17-481b-aea4-e87e56183613/ProdDoc_SIS.pdf)
 
 **Diffuse Radiation**
-- ...
+- *Hourly*, Daily, Monthly and Yearly *satellite-based* Diffuse Radiation :yellow_circle: *ProdDoc (PDF) URL ?*
 
 **Direct Radiation**
-- ...
+- *Hourly*, Daily, Monthly and Yearly *satellite-based* Direct Radiation :yellow_circle: *ProdDoc (PDF) URL ?*
 
 **Cloud Fractional Cover**
-- ...
+- *Hourly*, [Daily, Monthly and Yearly satellite-based Cloud Fractional Cover](https://www.meteoswiss.admin.ch/dam/jcr:af0c491c-4bfc-4efd-bcee-5d019004afd1/ProdDoc_CFC.pdf)
 
 <br>
 
@@ -161,7 +161,8 @@ The following *example* data files are available for download:
 | **Diffuse Radiation**          |                      | Hourly             | previous_day             | msg.SISDIF-No-Horizon.H_ch02.lonlat    |
 |                                |                      | D ?                |                          | *[msg.SISDIF-No-Horizon.D_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.D_ch02.lonlat_20201206000000.nc)* |
 |                                |                      | M ?                |                          | *[msg.SISDIF-No-Horizon.M_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.M_ch02.lonlat_20200401000000.nc)* |
-|                                |                      | Y ?                |                          | *[msg.SISDIF-No-Horizon.Y]_ch02.lonlat(https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
+|                                |                      | Y ?                |                          | *[msg.SISDIF-No-Horizon.Y_ch02.lonlat](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/msg.SISDIF-No-Horizon.Y_ch02.lonlat_20200101000000.nc)* |
+
 | **Direct Radiation**           |                      | H                  | previous_day             | msg.SISDIR.H_ch02.lonlat               |
 |                                |                      | Daily              | previous_day             | msg.SISDIR.D_ch02.lonlat               |
 |                                |                      | Monthly            | previous_month           | msg.SISDIR.M_ch02.lonlat               |
