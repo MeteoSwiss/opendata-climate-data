@@ -6,9 +6,9 @@ Climate Data consists of homogenous time series data (1, 2), spatial climate dat
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
 - C3 - [Ground-based spatial climate data](#c3---ground-based-spatial-climate-data)
-  - C31 - Precipitation
-  - C32 - Temperature
-  - C33 - Relative Sunshine Duration
+  - Precipitation
+  - Temperature
+  - Relative Sunshine Duration
 - C4 - [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
   - C41 - Gridded cloud fractional cover
   - C42 - Gridded global radiation
@@ -84,16 +84,16 @@ See e.g. MeteoSwiss' [...](...).
 ## C3 - Ground-based spatial climate data
 The following *grid data products* are statistically derived from *surface data* (see the links for the detailed product documentations):
 
-**C31 - Precipitation**
+**Precipitation**
 - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
 - [Daily Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf)
 - [Monthly and Yearly Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf)
 
-**C32 - Temperature**
+**Temperature**
 - [Daily Mean, Minimum and Maximum Temperature](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf)
 - [Monthly and Yearly Mean Temperature](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)
 
-**C33 - Relative Sunshine Duration**
+**Relative Sunshine Duration**
 - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
 - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
 
@@ -109,12 +109,12 @@ The following *example* data files are available for download:
 
 | *Parameter*                        | *Product*            | Time interval      | Update cycle             | *Example* Data files (see STAC Assets) |
 | ---------------------------------- | -------------------- | ------------------ | ------------------------ | -------------------------------------- |
-| C31 - Precipitation                | Preliminary analysis | Daily              | previous_day             | RprelimD_ch01h.swiss.lv95              |
+| Precipitation                      | Preliminary analysis | Daily              | previous_day             | RprelimD_ch01h.swiss.lv95              |
 |                                    | Final analysis       | Daily              | previous_month           | *[RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc)* |
 |                                    | Final analysis       | Monthly            | previous_month           | [RhiresM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 |                                    | Final analysis       | Yearly             | previous_year            | *[RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc)* |
 |                                    | ?                    | Monthly            | previous_month           | [RanomM9120_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
-| C32 - Temperature                  | Absolute or Mean ?   | Daily              | previous_day             | [TabsD_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
+| Temperature                        | Absolute or Mean ?   | Daily              | previous_day             | [TabsD_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 |                                    | Absolute or Mean ?   | Monthly            | previous_month           | [TabsM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 |                                    | Absolute or Mean ?   | Yearly             | previous_year            | TabsY_ch01r.swiss.lv95             |
 |                                    | Maximum              | Daily              | previous_day             | [TmaxD_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
@@ -124,14 +124,10 @@ The following *example* data files are available for download:
 |                                    | Minimum              | Monthly            | previous_month           | [TminM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 |                                    | Minimum              | Yearly             | previous_year            | TminY_ch01r.swiss.lv95             |
 |                                    | ?                    | Monthly            | previous_month           | [TanomM9120_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
-
-| Gridded relative sunshine duration |                      | Daily              | previous_day             | SrelD_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration |                      | Monthly            | previous_month           | SrelM_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration |                      | Yearly             | previous_year            | SrelY_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration | ?                    | Monthly            | previous_month           | SanomM9120_ch01r.swiss.lv95 |
-
-### 3.2. Data visualisation
-See e.g. MeteoSwiss' [...](...).
+| Relative Sunshine Duration         |                      | Daily              | previous_day             | [SrelD_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
+|                                    |                      | Monthly            | previous_month           | [SrelM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
+|                                    |                      | Yearly             | previous_year            | SrelY_ch01r.swiss.lv95      |
+|                                    | ?                    | Monthly            | previous_month           | [SanomM9120_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
 
 <br>
 
