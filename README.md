@@ -3,9 +3,9 @@
 # C. Climate Data
 Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
-- C1 - [Climate stations](#1-climate-stations)
-- C2 - [Climate precipitation stations](#2-climate-precipitation-stations) :yellow_circle: *documentation upcoming*
-- C3 - [Ground-based spatial climate data](#3-ground-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
+- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
+- C3 - [Ground-based spatial climate data](#c3-ground-based-spatial-climate-data)
   - C31 - Gridded precipitation
   - C32 - Gridded relative sunshine duration
   - C33 - Gridded temperature
@@ -30,7 +30,7 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 
 ---
 
-## 1. Climate stations
+## C1 - Climate stations - Homogeneous measurements
 The [Swiss National Basic Climatological Network "Swiss NBCN"](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-national-basic-climatological-network.html) connects the major ground-based stations within the MeteoSwiss monitoring network. It consists of around 30 climate monitoring stations. 
 
 The [homogenous time series data](https://www.meteoswiss.admin.ch/climate/climate-change/changes-in-temperature-precipitation-and-sunshine/homogeneous-data-series-since-1864.html) for temperature, precipitation and hours of sunshine date back, in some cases, to the mid-nineteenth century.
@@ -56,38 +56,49 @@ See e.g. MeteoSwiss' [...](...).
 
 <br>
 
-## 2. Climate precipitation stations
+## C2 - Climate precipitation stations - Homogeneous measurements
 ... 
 
 ...
 
-### Data granularity, update frequency, format and volume
+### 2.1. Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
 
 See example data files: [`...`](...).
 
-### Parameter metadata
+### 2.2. Parameter metadata
 See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
 
 <!-- ### Codes -->
 <!-- ... -->
 
-### Station metadata
+### 2.3. Station metadata
 See example [station metadata file](...).
 
-### Data visualisation
+### 2.4. Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
 <br>
 
-## 3. Ground-based spatial climate data
+## C3 - Ground-based spatial climate data
 Ground-based spatial climate data are statistically derived from *surface data*.
 
+The data contains the following parameters and subparameters:
+- Gridded precipitation
+  - *Final analysis*
+  - Daily precipitation (preliminary analysis): [Detailed documentation](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
+- Gridded relative sunshine duration
+- Gridded temperature
+  - *Absolute*
+  - *Maximum*
+  - *Minimum*
+
+### 3.1. Data granularity, update frequency, format and volume
 *See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
 
-| Parameter                          | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
+| Parameter                          | Subparameter         | [Data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) | [Update cycle](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) | Filename                    | *BOUND_BOX_COORD_SYS_TX* | *OUTPUT_COORDSYS_TX* |
 | ---------------------------------- | -------------------- | ------------------ | ------------------------ | --------------------------- | ---------------------- | ------------------ |
 | Gridded precipitation              | Final analysis       | D                  | previous_month           | RhiresD_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
 | Gridded precipitation              | Final analysis       | M                  | previous_month           | RhiresM_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
@@ -109,8 +120,7 @@ Ground-based spatial climate data are statistically derived from *surface data*.
 | Gridded temperature                | Minimum              | Y                  | previous_year            | TminY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | ?                    | M                  | previous_month           | TanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
 
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
+
 
 Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of ... MB per file.
 
