@@ -83,24 +83,25 @@ See e.g. MeteoSwiss' [...](...).
 <br>
 
 ## C3 - Ground-based spatial climate data
-Ground-based spatial climate data are statistically derived from *surface data*.
+These grid data products are statistically derived from *surface data*. The coordinate system is [Swiss LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) [EPSG:2056](https://epsg.io/2056). Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data.
 
-The data contains the following parameters and subparameters:
-- Gridded precipitation
-  - *Final analysis*
-  - Daily precipitation (preliminary analysis): [Detailed documentation](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
-- Gridded relative sunshine duration
-- Gridded temperature
-  - *Absolute*
-  - *Maximum*
-  - *Minimum*
+The following parameters and *products* are available. See the links for the detailed product documentations.
+- **Gridded Precipitation**
+  - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
+  - [Daily Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:4f51f0f1-0fe3-48b5-9de0-15666327e63c/ProdDoc_RhiresD.pdf)
+  - [Monthly and Yearly Precipitation (Final analysis)](https://www.meteoswiss.admin.ch/dam/jcr:d4f53a4a-d7f4-4e1e-a594-8ff4bfd1aca5/ProdDoc_RhiresM.pdf)
+- **Gridded Temperature**
+  - [Daily Mean, Minimum and Maximum Temperature](https://www.meteoswiss.admin.ch/dam/jcr:818a4d17-cb0c-4e8b-92c6-1a1bdf5348b7/ProdDoc_TabsD.pdf)
+  - [Monthly and Yearly Mean Temperature](https://www.meteoswiss.admin.ch/dam/jcr:33e26211-9937-4f80-80a3-09cfe54663bc/ProdDoc_TabsM.pdf)
+- **Gridded Relative Sunshine Duration**
+  - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
+  - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
 
-### 3.1. Data granularity, update frequency, format and volume
-*See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
+### 3.1. Data granularity, update frequency and example data files
 
-| Parameter                          | Subparameter         | [Data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) | [Update cycle](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) | Filename                    | *BOUND_BOX_COORD_SYS_TX* | *OUTPUT_COORDSYS_TX* |
-| ---------------------------------- | -------------------- | ------------------ | ------------------------ | --------------------------- | ---------------------- | ------------------ |
-| Gridded precipitation              | Final analysis       | D                  | previous_month           | RhiresD_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
+| Parameter                          | *Subparameter ?* | [Data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) | [Update cycle](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) | Filename / Example data files                    |
+| ---------------------------------- | -------------------- | ------------------ | ------------------------ | --------------------------- |
+| Gridded precipitation              | Final analysis       | D                  | previous_month           | [RhiresD_ch01h.swiss.lv95](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc) |
 | Gridded precipitation              | Final analysis       | M                  | previous_month           | RhiresM_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
 | Gridded precipitation              | Final analysis       | Y                  | previous_year            | RhiresY_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
 | Gridded precipitation              | Preliminary analysis | D                  | previous_day             | RprelimD_ch01h.swiss.lv95   | CH1995                 | EPSG:2056          |
@@ -109,9 +110,9 @@ The data contains the following parameters and subparameters:
 | Gridded relative sunshine duration |                      | M                  | previous_month           | SrelM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded relative sunshine duration |                      | Y                  | previous_year            | SrelY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded relative sunshine duration | ?                    | M                  | previous_month           | SanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
-| Gridded temperature                | Absolute             | D                  | previous_day             | TabsD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
-| Gridded temperature                | Absolute             | M                  | previous_month           | TabsM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
-| Gridded temperature                | Absolute             | Y                  | previous_year            | TabsY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute or Mean ?   | D                  | previous_day             | TabsD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute or Mean ?   | M                  | previous_month           | TabsM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute or Mean ?   | Y                  | previous_year            | TabsY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | Maximum              | D                  | previous_day             | TmaxD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | Maximum              | M                  | previous_month           | TmaxM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | Maximum              | Y                  | previous_year            | TmaxY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
@@ -120,11 +121,7 @@ The data contains the following parameters and subparameters:
 | Gridded temperature                | Minimum              | Y                  | previous_year            | TminY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | ?                    | M                  | previous_month           | TanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
 
-
-
-Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of ... MB per file.
-
-See example data files: [`...`](...).
+See example data files: [RhiresD.nc](), [RhiresM.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc), [RhiresY.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc)
 
 ### Parameter metadata
 *See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
