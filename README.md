@@ -112,7 +112,7 @@ Ground-based spatial climate data are statistically derived from *surface data*.
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
 
-Data format is [`NetCDF`](...) with an estimated volume of ... MB per file.
+Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of ... MB per file.
 
 See example data files: [`...`](...).
 
@@ -135,35 +135,39 @@ Spatial climate data, which contain radiation and cloud cover parameters, are de
 
 *See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
 
-| *Parameter*                        | Data granularities   | FILENAME                              | *PERIOD_TX = Update frequency* | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX |
-| ---------------------------------- | -------------------- | ------------------------------------- | -------------- | ---------------------- | ------------------ | ---------------- |
-| *?*                                | *`H`, `D`, `M`, `Y`* | msg.ALB.H_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.ALB.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.ALB.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.ALB.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
-| **Gridded cloud fractional cover** | `D`, `M`, `Y`        | msg.CFC.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.CFC.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.CFC.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
-| **Gridded global radiation**       | *`H`*, `D`, `M`, `Y` | msg.SIS.H_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS.D_ch02.lonlat                 | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS.M_ch02.lonlat                 | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS.Y_ch02.lonlat                 | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
-| *?*                                | *`H`*                | msg.SISCF-No-Horizon.H_ch02.lonlat    | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-| **Gridded diffuse radiation**      | `H`, *`D`, `M`, `Y`* | msg.SISDIF-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-| **Gridded direct radiation**       | `H`, `D`, `M`, `Y`   | msg.SISDIR.H_ch02.lonlat              | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR.D_ch02.lonlat              | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR.M_ch02.lonlat              | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR.Y_ch02.lonlat              | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
-| *?*                                | *`H`*                | msg.SISDIRCF-No-Horizon.H_ch02.lonlat | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-| *?*                                | *`H`, `D`, `M`, `Y`* | msg.SISDIR-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR-No-Horizon.D_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR-No-Horizon.M_ch02.lonlat   | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SISDIR-No-Horizon.Y_ch02.lonlat   | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
-| *?*                                | *`H`*                | msg.SISDNI-No-Horizon.H_ch02.lonlat   | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-| *?*                                | *`H`, `D`, `M`, `Y`* | msg.SIS-No-Horizon.H_ch02.lonlat      | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS-No-Horizon.D_ch02.lonlat      | previous_day   | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS-No-Horizon.M_ch02.lonlat      | previous_month | LL84                   | EPSG:4326          | NETCDF           |
-|                                    |                      | msg.SIS-No-Horizon.Y_ch02.lonlat      | previous_year  | LL84                   | EPSG:4326          | NETCDF           |
+| Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
+| ------------------------------ |  | --- | -------------- | ------------------------------------- | ---- | --------- |
+| ?                              |  | H   | previous_day   | msg.ALB.H_ch02.lonlat                 | LL84 | EPSG:4326 |
+| ?                              |  | D   | previous_day   | msg.ALB.D_ch02.lonlat                 | LL84 | EPSG:4326 |
+| ?                              |  | M   | previous_month | msg.ALB.M_ch02.lonlat                 | LL84 | EPSG:4326 |
+| ?                              |  | Y   | previous_year  | msg.ALB.Y_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded cloud fractional cover |  | H ? |                |                                       |      |           |
+| Gridded cloud fractional cover |  | D   | previous_day   | msg.CFC.D_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded cloud fractional cover |  | M   | previous_month | msg.CFC.M_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded cloud fractional cover |  | Y   | previous_year  | msg.CFC.Y_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded global radiation       |  | H   | previous_day   | msg.SIS.H_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded global radiation       |  | D   | previous_day   | msg.SIS.D_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded global radiation       |  | M   | previous_month | msg.SIS.M_ch02.lonlat                 | LL84 | EPSG:4326 |
+| Gridded global radiation       |  | Y   | previous_year  | msg.SIS.Y_ch02.lonlat                 | LL84 | EPSG:4326 |
+| ?                              |  | H   | previous_day   | msg.SISCF-No-Horizon.H_ch02.lonlat    | LL84 | EPSG:4326 |
+| Gridded diffuse radiation      |  | H   | previous_day   | msg.SISDIF-No-Horizon.H_ch02.lonlat   | LL84 | EPSG:4326 |
+| Gridded diffuse radiation      |  | D ? |                |                                       |      |           |
+| Gridded diffuse radiation      |  | M ? |                |                                       |      |           |
+| Gridded diffuse radiation      |  | Y ? |                |                                       |      |           |
+| Gridded direct radiation       |  | H   | previous_day   | msg.SISDIR.H_ch02.lonlat              | LL84 | EPSG:4326 |
+| Gridded direct radiation       |  | D   | previous_day   | msg.SISDIR.D_ch02.lonlat              | LL84 | EPSG:4326 |
+| Gridded direct radiation       |  | M   | previous_month | msg.SISDIR.M_ch02.lonlat              | LL84 | EPSG:4326 |
+| Gridded direct radiation       |  | Y   | previous_year  | msg.SISDIR.Y_ch02.lonlat              | LL84 | EPSG:4326 |
+| ?                              |  | H   | previous_day   | msg.SISDIRCF-No-Horizon.H_ch02.lonlat | LL84 | EPSG:4326 |
+| ?                              |  | H   | previous_day   | msg.SISDIR-No-Horizon.H_ch02.lonlat   | LL84 | EPSG:4326 |
+| ?                              |  | D   | previous_day   | msg.SISDIR-No-Horizon.D_ch02.lonlat   | LL84 | EPSG:4326 |
+| ?                              |  | M   | previous_month | msg.SISDIR-No-Horizon.M_ch02.lonlat   | LL84 | EPSG:4326 |
+| ?                              |  | Y   | previous_year  | msg.SISDIR-No-Horizon.Y_ch02.lonlat   | LL84 | EPSG:4326 |
+| ?                              |  | H   | previous_day   | msg.SISDNI-No-Horizon.H_ch02.lonlat   | LL84 | EPSG:4326 |
+| ?                              |  | H   | previous_day   | msg.SIS-No-Horizon.H_ch02.lonlat      | LL84 | EPSG:4326 |
+| ?                              |  | D   | previous_day   | msg.SIS-No-Horizon.D_ch02.lonlat      | LL84 | EPSG:4326 |
+| ?                              |  | M   | previous_month | msg.SIS-No-Horizon.M_ch02.lonlat      | LL84 | EPSG:4326 |
+| ?                              |  | Y   | previous_year  | msg.SIS-No-Horizon.Y_ch02.lonlat      | LL84 | EPSG:4326 |
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
