@@ -193,7 +193,36 @@ See e.g. MeteoSwiss' [...](...).
 ## 5. Radar-based spatial climate data
 ... 
 
-...
+| Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
+| ------------------------------ |  | --- | -------------- | ------------------------------------- | ---- | --------- |
+| ? | ? | M | previous_month | hailsizeM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | hailsizeanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | hailsizeY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | hailsizeanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildaysM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildaysanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildaysY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildaysanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildaysclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildaysclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildaysclimY_ch01r.swiss.lv95_20020401000000_20200930000000.nc       | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildaysclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays2cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays2cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays2cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays2cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays2cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays2cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays2cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays2cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays4cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays4cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays4cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays4cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays4cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | M | previous_month | haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
+| ? | ? | Y | previous_year  | haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
