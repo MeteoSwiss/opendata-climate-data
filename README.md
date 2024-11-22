@@ -5,7 +5,7 @@ Climate Data consists of homogenous time series data (1, 2), spatial climate dat
 
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
-- C3 - [Ground-based spatial climate data](#c3---ground-based-spatial-climate-data): **Precipitation** / **Temperature** / **Relative Sunshine Duration**
+- C3 - [Ground-based spatial climate data](#c3---ground-based-spatial-climate-data): **Precipitation**, **Temperature**, **Relative Sunshine Duration**
 - C4 - [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data)
   - C41 - Gridded cloud fractional cover
   - C42 - Gridded global radiation
