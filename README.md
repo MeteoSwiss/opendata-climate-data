@@ -83,7 +83,7 @@ See e.g. MeteoSwiss' [...](...).
 <br>
 
 ## C3 - Ground-based spatial climate data
-The following *grid data products* are statistically derived from *surface data* (see the links for detailed product documentations).
+The following *grid data products* are statistically derived from *surface data* (see the links for the detailed product documentations).
 
 **Precipitation**
 - [Daily Precipitation (Preliminary analysis)](https://www.meteoswiss.admin.ch/dam/jcr:86ca15d3-2b56-4753-84fb-135e40d6a5a1/ProdDoc_RprelimD.pdf)
@@ -98,7 +98,7 @@ The following *grid data products* are statistically derived from *surface data*
 - [Daily Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:981891db-30d1-47cc-a2e1-50c270bdaf22/ProdDoc_SrelD.pdf)
 - [Monthly and Yearly Relative Sunshine Duration](https://www.meteoswiss.admin.ch/dam/jcr:94421f3c-47f3-46fa-9939-1d494a0ce5fe/ProdDoc_SrelM.pdf)
 
-The coordinate system is [Swiss LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) [EPSG:2056](https://epsg.io/2056). 
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
 Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of 1.1 MB for *individual files*, and 13 MB for monthly files with daily data.
 
