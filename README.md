@@ -106,17 +106,16 @@ Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an
 
 ### 3.1. *Example* Data files
 
-| Parameter                          | *Product*            | Data granularity   | Update cycle             | *Filename* / Example data files |
-| ---------------------------------- | -------------------- | ------------------ | ------------------------ | ------------------------------- |
-| Gridded precipitation              | Preliminary analysis | D                  | previous_day             | *RprelimD_ch01h.swiss.lv95* |
-|                                    | Final analysis       | D                  | previous_month           | [RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc) |
-|                                    | Final analysis       | M                  | previous_month           | [RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresM_ch01r.swiss.lv95_202305010000_202305010000.nc) |
-|                                    | Final analysis       | Y                  | previous_year            | [RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc) |
-|                                    | ?                    | M                  | previous_month           | RanomM9120_ch01r.swiss.lv95 |
-| Gridded relative sunshine duration |                      | D                  | previous_day             | SrelD_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration |                      | M                  | previous_month           | SrelM_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration |                      | Y                  | previous_year            | SrelY_ch01r.swiss.lv95      |
-| Gridded relative sunshine duration | ?                    | M                  | previous_month           | SanomM9120_ch01r.swiss.lv95 |
+*Current (and archive ?) data ...*
+
+| *Parameter*                        | *Product*            | Data granularity   | Update cycle             | *Example* Data files        |
+| ---------------------------------- | -------------------- | ------------------ | ------------------------ | --------------------------- |
+| Gridded precipitation              | Preliminary analysis | D                  | previous_day             | RprelimD_ch01h.swiss.lv95   |
+|                                    | Final analysis       | D                  | previous_month           | *[RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc)* |
+|                                    | Final analysis       | M                  | previous_month           | [RhiresM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/ch.meteoschweiz.ogd-surface-derived-grid/ch/ogd-surface-derived-grid.rhiresm_ch01r_swiss_lv95_20241001000000_20241001000000.nc) |
+|                                    | Final analysis       | Y                  | previous_year            | *[RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresY_ch01r.swiss.lv95_202201010000_202201010000.nc)* |
+|                                    | ?                    | M                  | previous_month           | [RanomM9120_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/ch.meteoschweiz.ogd-surface-derived-grid/ch/ogd-surface-derived-grid.ranomm9120_ch01r_swiss_lv95_20241001000000_20241001000000.nc) |
+
 | Gridded temperature                | Absolute or Mean ?   | D                  | previous_day             | TabsD_ch01r.swiss.lv95      |
 | Gridded temperature                | Absolute or Mean ?   | M                  | previous_month           | TabsM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | Absolute or Mean ?   | Y                  | previous_year            | TabsY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
@@ -128,7 +127,10 @@ Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an
 | Gridded temperature                | Minimum              | Y                  | previous_year            | TminY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
 | Gridded temperature                | ?                    | M                  | previous_month           | TanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
 
-See example data files: [RhiresD.nc](), [RhiresM.nc](), [RhiresY.nc]()
+| Gridded relative sunshine duration |                      | D                  | previous_day             | SrelD_ch01r.swiss.lv95      |
+| Gridded relative sunshine duration |                      | M                  | previous_month           | SrelM_ch01r.swiss.lv95      |
+| Gridded relative sunshine duration |                      | Y                  | previous_year            | SrelY_ch01r.swiss.lv95      |
+| Gridded relative sunshine duration | ?                    | M                  | previous_month           | SanomM9120_ch01r.swiss.lv95 |
 
 ### 3.2. Data visualisation
 See e.g. MeteoSwiss' [...](...).
