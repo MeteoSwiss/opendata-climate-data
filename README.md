@@ -3,15 +3,14 @@
 # C. Climate Data
 Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
-- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
-- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
-- C3 - [Ground-based spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data)
-- C4 - [Satellite-based spatial climate data](#4-satellite-based-spatial-climate-data)
-  - C41 - Gridded cloud fractional cover
-  - C42 - Gridded global radiation
-  - C43 - Gridded diffuse radiation
-  - C44 - Gridded direct radiation
-  - ...
+- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
+- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
+- C3 - [Ground-based spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
+- C4 - [Satellite-based spatial climate data - ...](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
+  - Gridded cloud fractional cover
+  - Gridded global radiation
+  - Gridded diffuse radiation
+  - Gridded direct radiation
 - C5 - [Radar-based spatial climate data](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
   - ...
 - C6 - [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
@@ -105,7 +104,7 @@ Data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an
 The following *example* data files are available for download:
 
 | *Parameter*                        | *Product*            | Time interval      | Update cycle             | *Example* Data files (see STAC Assets) |
-| :--------------------------------- | :------------------- | :----------------- | :----------------------- | :------------------------------------- |
+|:-----------------------------------|:---------------------|:-------------------|:-------------------------|:---------------------------------------|
 | **Precipitation**                  | Preliminary analysis | Daily              | previous_day             | RprelimD_ch01h.swiss.lv95              |
 |                                    | Final analysis       | Daily              | previous_month           | *[RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc](https://github.com/MeteoSwiss/publication-opendata-spatial-climate-data/blob/main/RhiresD_ch01h.swiss.lv95_202305010000_202305310000.nc)* |
 |                                    | Final analysis       | Monthly            | previous_month           | [RhiresM_ch01r.swiss.lv95](https://sys-data.int.bgdi.ch/browser/index.html#/collections/ch.meteoschweiz.ogd-surface-derived-grid/items/ch?.language=en) |
@@ -128,7 +127,10 @@ The following *example* data files are available for download:
 
 <br>
 
-## 4. Satellite-based spatial climate data
+## C4 - Satellite-based spatial climate data
+The following *grid data products* are statistically derived from *surface data* (see the links for the detailed product documentations):
+
+
 Spatial climate data, which contain radiation and cloud cover parameters, are derived from [MeteoSat satellite data](...) together with *surface data*.
 
 *See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
