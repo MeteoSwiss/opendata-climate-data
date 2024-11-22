@@ -87,32 +87,32 @@ Ground-based spatial climate data are statistically derived from *surface data*.
 
 *See the overview of spatial climate products (PDF). For each product see the "detailed product document(s)" below for further information, and the parameter metadata in each example file.*
 
-| *Parameter*                                | *Subparameter*       | Data granularities  | *PERIOD_TX = Update cycle*   | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX |
-| ------------------------------------------ | -------------------- | ------------------- | ---------------------------- | --------------------------- | ---------------------- | ------------------ | ---------------- |
-| **Gridded precipitation**                  | **Final analysis**       | `D`, `M`, `Y` | previous_month               | RhiresD_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_month               | RhiresM_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_year                | RhiresY_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | **Preliminary analysis** | `D`               | previous_day                 | RprelimD_ch01h.swiss.lv95   | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | *?*                  | `M`               | previous_month               | RanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          | NETCDF           |
-| **Gridded relative sunshine duration**     |                      | `D`, `M`, `Y` | previous_day                 | SrelD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_month               | SrelM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_year                | SrelY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | *?*                  | `M`               | previous_month               | SanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          | NETCDF           |
-| **Gridded temperature**                    | **Absolute**             | `D`, `M`, `Y` | previous_day                 | TabsD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_month               | TabsM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_year                | TabsY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | **Maximum**              | `D`, `M`, `Y` | previous_day                 | TmaxD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_month               | TmaxM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_year                | TmaxY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | **Minimum**              | `D`, `M`, `Y` | previous_day                 | TminD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_month               | TminM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            |                      |                     | previous_year                | TminY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          | NETCDF           |
-|                                            | *?*                  | `M`               | previous_month               | TanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          | NETCDF           |
+| Parameter                          | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
+| ---------------------------------- | -------------------- | ------------------ | ------------------------ | --------------------------- | ---------------------- | ------------------ |
+| Gridded precipitation              | Final analysis       | D                  | previous_month           | RhiresD_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
+| Gridded precipitation              | Final analysis       | M                  | previous_month           | RhiresM_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
+| Gridded precipitation              | Final analysis       | Y                  | previous_year            | RhiresY_ch01h.swiss.lv95    | CH1995                 | EPSG:2056          |
+| Gridded precipitation              | Preliminary analysis | D                  | previous_day             | RprelimD_ch01h.swiss.lv95   | CH1995                 | EPSG:2056          |
+| Gridded precipitation              | ?                    | M                  | previous_month           | RanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
+| Gridded relative sunshine duration |                      | D                  | previous_day             | SrelD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded relative sunshine duration |                      | M                  | previous_month           | SrelM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded relative sunshine duration |                      | Y                  | previous_year            | SrelY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded relative sunshine duration | ?                    | M                  | previous_month           | SanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute             | D                  | previous_day             | TabsD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute             | M                  | previous_month           | TabsM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Absolute             | Y                  | previous_year            | TabsY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Maximum              | D                  | previous_day             | TmaxD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Maximum              | M                  | previous_month           | TmaxM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Maximum              | Y                  | previous_year            | TmaxY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Minimum              | D                  | previous_day             | TminD_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Minimum              | M                  | previous_month           | TminM_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | Minimum              | Y                  | previous_year            | TminY_ch01r.swiss.lv95      | CH1995                 | EPSG:2056          |
+| Gridded temperature                | ?                    | M                  | previous_month           | TanomM9120_ch01r.swiss.lv95 | CH1995                 | EPSG:2056          |
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
 
-Data format is [`...`](...) with an estimated volume of ... MB per file.
+Data format is [`NetCDF`](...) with an estimated volume of ... MB per file.
 
 See example data files: [`...`](...).
 
