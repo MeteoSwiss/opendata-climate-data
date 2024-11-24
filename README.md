@@ -12,7 +12,7 @@
 
 **Climate Normals**
 - C6 - [Climate normals](#c6---climate-normals)
-- C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#c7---spatial-climate-normals)
+- C7 - [Precipitation, Temperature, Sunshine Duration](#c7---spatial-climate-normals) (Spatial climate normals)
 
 **Climate Scenarios**
 - C8 - [Climate scenarios](#c8---climate-scenarios)
