@@ -10,10 +10,12 @@
 - C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data) :yellow_circle: *documentation to be reviewed*
 - C5 - [*Hailsize, Haildays*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data) :red_circle: *documentation upcoming*
 
-**Climate Normals & Scenarios**
-- C6 - [Climate normals](#6-climate-normals) :red_circle: *documentation upcoming*
-- C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#7-spatial-climate-normals) :red_circle: *documentation upcoming*
-- C8 - [Climate scenarios](#8-climate-scenarios) :red_circle: *documentation upcoming*
+**Climate Normals**
+- C6 - [Climate normals](#c6---climate-normals) :red_circle: *documentation upcoming*
+- C7 - [Precipitation, Temperature, Sunshine Duration](#c7---spatial-climate-normals) (Spatial climate normals) :red_circle: *documentation upcoming*
+
+**Climate Scenarios**
+- C8 - [Climate scenarios](#c8---climate-scenarios) :red_circle: *documentation upcoming*
 
 ---
 
