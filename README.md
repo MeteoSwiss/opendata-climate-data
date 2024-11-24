@@ -268,8 +268,19 @@ See e.g. MeteoSwiss' [...](...).
 
 <br>
 
-## 7. Spatial climate normals
-... 
+## C7 - Spatial climate normals
+... [Norm value charts](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/climate-normals/norm-value-charts.html) ...
+
+**Precipitation**
+- ...
+
+**Temperature**
+- ...
+
+**Sunshine Duration**
+- ...
+
+<br>
 
 | PERIOD_TX    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX | OUTPUT_FORMAT_TX | filename                                                  |
 | ------------ | ---------------------- | ------------------ | ---------------- | --------------------------------------------------------- |
