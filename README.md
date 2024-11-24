@@ -2,20 +2,20 @@
 
 # C. Climate Data
 **Homogenous Time Series Data**
-- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation to be reviewed*
-- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :red_circle: *documentation upcoming*
+- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
+- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
 
 **Spatial Climate Data**
-- C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data) :yellow_circle: *documentation to be reviewed*
-- C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data) :yellow_circle: *documentation to be reviewed*
-- C5 - [*Hailsize, Haildays*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data) :red_circle: *documentation upcoming*
+- C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data)
+- C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data)
+- C5 - [*Hailsize, Haildays*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
 
 **Climate Normals**
-- C6 - [Climate normals](#c6---climate-normals) :red_circle: *documentation upcoming*
-- C7 - [Precipitation, Temperature, Sunshine Duration](#c7---spatial-climate-normals) (Spatial climate normals) :red_circle: *documentation upcoming*
+- C6 - [Climate normals](#c6---climate-normals)
+- C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#c7---spatial-climate-normals)
 
 **Climate Scenarios**
-- C8 - [Climate scenarios](#c8---climate-scenarios) :red_circle: *documentation upcoming*
+- C8 - [Climate scenarios](#c8---climate-scenarios)
 
 ---
 
