@@ -10,7 +10,7 @@ Climate Data consists of homogenous time series data (1, 2), spatial climate dat
 - C5 - [Radar-based spatial climate data - *Hailsize, Haildays*](#5-radar-based-spatial-climate-data) :red_circle: *documentation upcoming*
 - C6 - [Climate normals](#6-climate-normals) :red_circle: *documentation upcoming*
 - C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#7-spatial-climate-normals) :red_circle: *documentation upcoming*
-- C8 - [Climate scenarios](#8-climate-scenarios) :yellow_circle: *documentation upcoming*
+- C8 - [Climate scenarios](#8-climate-scenarios) :red_circle: *documentation upcoming*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=BER&chart=hour&table=false) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=LUG&chart=hour&table=false)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
