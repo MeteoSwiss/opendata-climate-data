@@ -3,17 +3,13 @@
 # C. Climate Data
 Climate Data consists of homogenous time series data (1, 2), spatial climate data (3-5), climate normals (6, 7) and scenarios (8):
 
-- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
-- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :yellow_circle: *documentation upcoming*
+- C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation to be reviewed*
+- C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :red_circle: *documentation upcoming*
 - C3 - [Ground-based spatial climate data - Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
-- C4 - [Satellite-based spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-- C5 - [Radar-based spatial climate data - ...](#5-radar-based-spatial-climate-data) :yellow_circle: *documentation upcoming*
-  - ...
-- C6 - [Climate normals](#6-climate-normals) :yellow_circle: *documentation upcoming*
-- C7 - [Spatial climate normals](#7-spatial-climate-normals) :yellow_circle: *documentation upcoming*
-  - C71 - Precipitation normals
-  - C72 - Sunshine duration normals
-  - C73 - Temperature normals
+- C4 - [Satellite-based spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
+- C5 - [Radar-based spatial climate data - *Hailsize, Haildays*](#5-radar-based-spatial-climate-data) :red_circle: *documentation upcoming*
+- C6 - [Climate normals](#6-climate-normals) :red_circle: *documentation upcoming*
+- C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#7-spatial-climate-normals) :red_circle: *documentation upcoming*
 - C8 - [Climate scenarios](#8-climate-scenarios) :yellow_circle: *documentation upcoming*
 
 ### General information
