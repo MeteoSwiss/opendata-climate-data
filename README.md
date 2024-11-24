@@ -15,8 +15,6 @@
 - C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#7-spatial-climate-normals) :red_circle: *documentation upcoming*
 - C8 - [Climate scenarios](#8-climate-scenarios) :red_circle: *documentation upcoming*
 
-<br>
-
 ---
 
 ## C1 - Climate stations - Homogeneous measurements
