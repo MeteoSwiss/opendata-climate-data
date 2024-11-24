@@ -1,8 +1,6 @@
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > C. Climate Data
 
 # C. Climate Data
-<br>
-
 **Homogenous Time Series Data**
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements) :yellow_circle: *documentation to be reviewed*
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :red_circle: *documentation upcoming*
@@ -16,6 +14,8 @@
 - C6 - [Climate normals](#6-climate-normals) :red_circle: *documentation upcoming*
 - C7 - [Spatial climate normals - Precipitation, Temperature, Sunshine Duration](#7-spatial-climate-normals) :red_circle: *documentation upcoming*
 - C8 - [Climate scenarios](#8-climate-scenarios) :red_circle: *documentation upcoming*
+
+<br>
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=BER&chart=hour&table=false) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-klima&lang=en&station=LUG&chart=hour&table=false)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
