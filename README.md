@@ -6,7 +6,7 @@
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements) :red_circle: *documentation upcoming*
 
 **Spatial Climate Data**
-- C3 - [Precipitation, Temperature, Relative Sunshine Duration (Ground-based spatial climate data)](#c3---ground-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
+- C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data) :yellow_circle: *documentation to be reviewed*
 - C4 - [Satellite-based spatial climate data - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) :yellow_circle: *documentation to be reviewed*
 - C5 - [Radar-based spatial climate data - *Hailsize, Haildays*](#5-radar-based-spatial-climate-data) :red_circle: *documentation upcoming*
 
