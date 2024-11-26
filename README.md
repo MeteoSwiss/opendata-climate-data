@@ -190,11 +190,13 @@ The following *example* data files are available for download:
 ## C5 - Radar-based spatial climate data
 The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations):
 
-**Probability of Hail**
-- *POH* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+**Hailsize**
+- *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
-**Maximum Expected Severe Hail Size**
-- *MESHS* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+**Haildays**
+- *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+
+<!-- Bezeichnungen s. https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
 
 <br>
 
@@ -236,6 +238,8 @@ The following *example* data files are available for download:
 | ? | ? | M | previous_month | haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
 | ? | ? | Y | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
 | ? | ? | Y | previous_year  | haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
+
+<!-- alle stdM, /Y weglassen -->
 
 <br>
 
