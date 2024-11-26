@@ -188,7 +188,23 @@ The following *example* data files are available for download:
 <br>
 
 ## 5. Radar-based spatial climate data
-... 
+The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations):
+
+**Probability of Hail**
+- *POH* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+
+**Maximum Expected Severe Hail Size**
+- *MESHS* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+
+<br>
+
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
+
+The data format is [`...`](...) with an estimated volume of ... MB per file.
+
+<br>
+
+The following *example* data files are available for download:
 
 | Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
 | ------------------------------ | -------------------- | --- | -------------- | ------------------------------------- | ---- | --------- |
@@ -220,25 +236,6 @@ The following *example* data files are available for download:
 | ? | ? | M | previous_month | haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
 | ? | ? | Y | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
 | ? | ? | Y | previous_year  | haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
-
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.*
-
-Data format is [`...`](...) with an estimated volume of ... MB per file.
-
-See example data files: [`...`](...).
-
-### Parameter metadata
-*See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
-
-<!-- ### Codes -->
-<!-- ... -->
-
-### Station metadata
-*See example [station metadata file](...).*
-
-### Data visualisation
-See e.g. MeteoSwiss' [...](...).
 
 <br>
 
