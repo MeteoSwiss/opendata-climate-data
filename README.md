@@ -190,10 +190,8 @@ The following *example* data files are available for download:
 ## C5 - Radar-based spatial climate data
 The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations):
 
-**Hailsize**
+**Hail Climatology**
 - *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
-
-**Haildays**
 - *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
 <!-- Bezeichnungen s. https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
