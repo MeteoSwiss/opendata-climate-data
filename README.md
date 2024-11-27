@@ -188,13 +188,13 @@ The following *example* data files are available for download:
 <br>
 
 ## C5 - Radar-based spatial climate data
-The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations):
+The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations). The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events:
 
-**Hail Climatology**
-- *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
-- *...* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+**Frequency of Hail Events**
+- Monthly and Yearly *radar-based* Number of Hail Days (since year 2002) <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
-<!-- Bezeichnungen s. https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
+**Hailstone Sizes**
+- Monthly and Yearly *radar-based* Hailstone Sizes (since year 2002) <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
 <br>
 
@@ -205,6 +205,8 @@ The data format is [`...`](...) with an estimated volume of ... MB per file.
 <br>
 
 The following *example* data files are available for download:
+
+<!-- Bezeichnungen gemäss https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
 
 | Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
 | ------------------------------ | -------------------- | --- | -------------- | ------------------------------------- | ---- | --------- |
