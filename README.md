@@ -8,7 +8,7 @@
 **Spatial Climate Data**
 - C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data)
 - C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data)
-- C5 - [*Probability of Hail, Maximum Expected Severe Hail Size*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
+- C5 - [Frequency of Hail Events, Hailstone Sizes*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
 
 **Climate Normals**
 - C6 - [Climate normals](#c6---climate-normals)
