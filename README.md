@@ -8,7 +8,7 @@
 **Spatial Climate Data**
 - C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data)
 - C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data)
-- C5 - [Frequency of Hail Events, Hailstone Sizes*](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
+- C5 - [Maximum Hailstone Size, Number of Hail Days](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
 
 **Climate Normals**
 - C6 - [Climate normals](#c6---climate-normals)
@@ -190,54 +190,62 @@ The following *example* data files are available for download:
 ## C5 - Radar-based spatial climate data
 The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations). The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events:
 
-**Frequency of Hail Events**
-- Monthly and Yearly *radar-based* Number of Hail Days (since year 2002) <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+**Maximum Hailstone Size**
+- Monthly and Yearly radar-based Maximum Hailstone Size *(since year 2002)* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
-**Hailstone Sizes**
-- Monthly and Yearly *radar-based* Hailstone Sizes (since year 2002) <<< :yellow_circle: *ProdDoc (PDF) URL ?*
+**Number of Hail Days**
+- Monthly and Yearly radar-based Number of Hail Days *(since year 2002)* <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
 <br>
 
 The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
-The data format is [`...`](...) with an estimated volume of ... MB per file.
+The data format is [`NetCDF`](https://www.unidata.ucar.edu/software/netcdf/) with an estimated volume of ... MB per file.
 
 <br>
 
-The following *example* data files are available for download:
+The following data files are available for download:
 
 <!-- Bezeichnungen gemäss https://meteoswiss.atlassian.net/wiki/spaces/AK/pages/492699723/TABELLEN+3+und+4+Neue+KLIMAHAGELDATEN+-+Betrieb -->
 
-| Parameter                      | Subparameter         | Data granularities | PERIOD_TX = Update cycle | FILENAME                    | BOUND_BOX_COORD_SYS_TX | OUTPUT_COORDSYS_TX |
-| ------------------------------ | -------------------- | --- | -------------- | ------------------------------------- | ---- | --------- |
-| ? | ? | M | previous_month | hailsizeM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | hailsizeanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | hailsizeY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | hailsizeanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildaysM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildaysanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildaysY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildaysanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildaysclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildaysclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildaysclimY_ch01r.swiss.lv95_20020401000000_20200930000000.nc       | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildaysclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays2cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays2cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays2cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays2cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays2cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays2cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays2cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays2cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays4cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays4cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays4cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays4cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays4cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | M | previous_month | haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    | CH1995 | EPSG:2056 |
-| ? | ? | Y | previous_year  | haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc | CH1995 | EPSG:2056 |
+| *Parameter*                | *Product*                          | Time interval | Update cycle   | Data files (see STAC Assets)                                |
+|:---------------------------|:-----------------------------------|:------------- |:---------------|:------------------------------------------------------------|
+| **Maximum Hailstone Size** | Absolute *values*                  | Monthly       | previous_month | hailsizeM_ch01r.swiss.lv95_20020601000000_20020630000000.nc |
+|                            | Absolute *values*                  | Yearly        | previous_year  | hailsizeY_ch01r.swiss.lv95_20020401000000_20020930000000.nc |
+|                            | Anomaly/deviation from Climatology | Monthly       | previous_month | hailsizeanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc |
+|                            | Anomaly/deviation from Climatology | Yearly        | previous_year  | hailsizeanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc |
+| **Number of Hail Days**    | Absolute *values*                  | Monthly       | previous_month |               |
+|                            | Anomaly/deviation from Climatology | Monthly       | previous_month |               |
+|                            | Climatology (mean 2002-last year)  | Monthly       | previous_month |               |
+|                            | Standard deviation of Climatology  | Monthly       | previous_month |               |
+
+<!--
+| ? | M | previous_month | haildaysM_ch01r.swiss.lv95_20020601000000_20020630000000.nc           |
+| ? | Y | previous_year  | haildaysY_ch01r.swiss.lv95_20020401000000_20020930000000.nc           |
+
+| ? | M | previous_month | haildays2cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
+| ? | Y | previous_year  | haildays2cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
+| ? | M | previous_month | haildays2cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
+| ? | M | previous_month | haildays2cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc |
+| ? | Y | previous_year  | haildays2cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc |
+| ? | Y | previous_year  | haildays2cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    |
+| ? | M | previous_month | haildays2cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
+| ? | Y | previous_year  | haildays2cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
+| ? | M | previous_month | haildays4cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
+| ? | Y | previous_year  | haildays4cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
+| ? | M | previous_month | haildays4cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
+| ? | M | previous_month | haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc |
+| ? | Y | previous_year  | haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc |
+| ? | Y | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    |
+| ? | M | previous_month | haildays4cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
+| ? | Y | previous_year  | haildays4cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
+| ? | M | previous_month | haildaysanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc       |
+| ? | Y | previous_year  | haildaysanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc       |
+| ? | M | previous_month | haildaysclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc       |
+| ? | M | previous_month | haildaysclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
+| ? | Y | previous_year  | haildaysclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc    |
+| ? | Y | previous_year  | haildaysclimY_ch01r.swiss.lv95_20020401000000_20200930000000.nc       |
+-->
 
 <!-- alle stdM, /Y weglassen -->
 
