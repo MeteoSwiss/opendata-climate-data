@@ -1,8 +1,6 @@
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > C. Climate Data
 
 # C. Climate Data
-The following data are available:
-
 **Homogenous Time Series Data**
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
