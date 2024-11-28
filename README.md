@@ -188,7 +188,9 @@ The following *example* data files are available for download:
 <br>
 
 ## C5 - Radar-based spatial climate data
-The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (see links for detailed product documentations). The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events:
+The following *grid data products* are derived from *radar data*, which were [further processed for statistical statements with the use of the HailStoRe resampling approach](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology/data-and-methods.html), among other things (*see links for detailed product documentation*s). The [hail climatology](https://www.meteoswiss.admin.ch/climate/the-climate-of-switzerland/hail-climatology.html) was developed in a user-oriented manner in a public-private partnership and represents a nationally uniform basis for the risk assessment of hail events.
+
+The following data are planned to be made available in May 2025:
 
 **Maximum Hailstone Size**
 - Monthly and Yearly radar-based Maximum Hailstone Size <<< :yellow_circle: *ProdDoc (PDF) URL ?*
