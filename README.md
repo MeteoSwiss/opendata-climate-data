@@ -197,11 +197,7 @@ The following data are planned to be made available in May 2025:
 
 **Number of Hail Days**
 - Monthly and Yearly radar-based Number of Hail Days <<< :yellow_circle: *ProdDoc (PDF) URL ?*
-
-**Number of Hail Days with Hail >2cm**
 - Monthly and Yearly radar-based Number of Hail Days with Hail >2cm <<< :yellow_circle: *ProdDoc (PDF) URL ?*
-
-**Number of Hail Days with Hail >4cm**
 - Monthly and Yearly radar-based Number of Hail Days with Hail >4cm <<< :yellow_circle: *ProdDoc (PDF) URL ?*
 
 <br>
@@ -218,34 +214,34 @@ The following data files are available for download:
 
 | *Parameter*                            | *Product*                          | Time interval | Update cycle   | Data files (see STAC Assets)                                       |
 |:---------------------------------------|:-----------------------------------|:------------- |:---------------|:-------------------------------------------------------------------|
-| **Maximum Hailstone Size**             | Absolute *values*                  | Monthly       | previous_month | hailsizeM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
-|                                        | Absolute *values*                  | Yearly        | previous_year  | hailsizeY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
-|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | hailsizeanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
-|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | hailsizeanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
-| **Number of Hail Days**                | Absolute *values*                  | Monthly       | previous_month | haildaysM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
-|                                        | Absolute *values*                  | Yearly        | previous_year  | haildaysY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
-|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildaysanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
-|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildaysanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildaysclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildaysclimY_ch01r.swiss.lv95_20020401000000_20200930000000.nc    |
-|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildaysclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc* |
-|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildaysclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc* |
-| **Number of Hail Days with Hail >2cm** | Absolute *values*                  | Monthly       | previous_month | haildays2cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
-|                                        | Absolute *values*                  | Yearly        | previous_year  | haildays2cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
-|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildays2cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
-|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildays2cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildays2cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildays2cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    |
-|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildays2cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc* |
-|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays2cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc* |
-| **Number of Hail Days with Hail >4cm** | Absolute *values*                  | Monthly       | previous_month | haildays4cmM_ch01r.swiss.lv95_20020601000000_20020630000000.nc        |
-|                                        | Absolute *values*                  | Yearly        | previous_year  | haildays4cmY_ch01r.swiss.lv95_20020401000000_20020930000000.nc        |
-|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildays4cmanomM_ch01r.swiss.lv95_20020601000000_20020630000000.nc    |
-|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildays4cmanomY_ch01r.swiss.lv95_20020401000000_20020930000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildays4cmclimM_ch01r.swiss.lv95_20020401000000_20200430000000.nc    |
-|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildays4cmclimY_ch01r.swiss.lv95_20020301000000_20200930000000.nc    |
-|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildays4cmclimstdM_ch01r.swiss.lv95_20020401000000_20200430000000.nc* |
-|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays4cmclimstdY_ch01r.swiss.lv95_20020401000000_20200930000000.nc* |
+| **Maximum Hailstone Size**             | Absolute *values*                  | Monthly       | previous_month | hailsizeM_ch01r.swiss.lv95        |
+|                                        | Absolute *values*                  | Yearly        | previous_year  | hailsizeY_ch01r.swiss.lv95        |
+|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | hailsizeanomM_ch01r.swiss.lv95    |
+|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | hailsizeanomY_ch01r.swiss.lv95    |
+| **Number of Hail Days**                | Absolute *values*                  | Monthly       | previous_month | haildaysM_ch01r.swiss.lv95        |
+|                                        | Absolute *values*                  | Yearly        | previous_year  | haildaysY_ch01r.swiss.lv95        |
+|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildaysanomM_ch01r.swiss.lv95    |
+|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildaysanomY_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildaysclimM_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildaysclimY_ch01r.swiss.lv95    |
+|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildaysclimstdM_ch01r.swiss.lv95* |
+|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildaysclimstdY_ch01r.swiss.lv95* |
+| **Number of Hail Days with Hail >2cm** | Absolute *values*                  | Monthly       | previous_month | haildays2cmM_ch01r.swiss.lv95        |
+|                                        | Absolute *values*                  | Yearly        | previous_year  | haildays2cmY_ch01r.swiss.lv95        |
+|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildays2cmanomM_ch01r.swiss.lv95    |
+|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildays2cmanomY_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildays2cmclimM_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildays2cmclimY_ch01r.swiss.lv95    |
+|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildays2cmclimstdM_ch01r.swiss.lv95* |
+|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays2cmclimstdY_ch01r.swiss.lv95* |
+| **Number of Hail Days with Hail >4cm** | Absolute *values*                  | Monthly       | previous_month | haildays4cmM_ch01r.swiss.lv95        |
+|                                        | Absolute *values*                  | Yearly        | previous_year  | haildays4cmY_ch01r.swiss.lv95        |
+|                                        | Anomaly/deviation from Climatology | Monthly       | previous_month | haildays4cmanomM_ch01r.swiss.lv95    |
+|                                        | Anomaly/deviation from Climatology | Yearly        | previous_year  | haildays4cmanomY_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Monthly       | previous_month | haildays4cmclimM_ch01r.swiss.lv95    |
+|                                        | Climatology (mean 2002-last year)  | Yearly        | previous_year  | haildays4cmclimY_ch01r.swiss.lv95    |
+|                                        | *Standard deviation of Climatology* | Monthly       | previous_month | *haildays4cmclimstdM_ch01r.swiss.lv95* |
+|                                        | *Standard deviation of Climatology* | Yearly        | previous_year  | *haildays4cmclimstdY_ch01r.swiss.lv95* |
 
 <!-- alle stdM, /Y weglassen -->
 
