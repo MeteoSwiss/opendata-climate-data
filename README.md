@@ -1,6 +1,8 @@
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > C. Climate Data
 
 # C. Climate Data
+The following data are available:
+
 **Homogenous Time Series Data**
 - C1 - [Climate stations - Homogeneous measurements](#c1---climate-stations---homogeneous-measurements)
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
@@ -8,7 +10,7 @@
 **Spatial Climate Data**
 - C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data)
 - C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data)
-- C5 - [Maximum Hailstone Size, Number of Hail Days](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data)
+- C5 - [Maximum Hailstone Size, Number of Hail Days](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data) - *will be realised in Q2-2025*
 
 **Climate Normals**
 - C6 - [Climate normals](#c6---climate-normals)
