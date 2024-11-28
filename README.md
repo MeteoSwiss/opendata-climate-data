@@ -6,9 +6,9 @@
 - C2 - [Climate precipitation stations - Homogeneous measurements](#c2---climate-precipitation-stations---homogeneous-measurements)
 
 **Spatial Climate Data**
-- C3 - [Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data) (Ground-based spatial climate data)
-- C4 - [Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data) (Satellite-based spatial climate data)
-- C5 - [Maximum Hailstone Size, Number of Hail Days](#c5---radar-based-spatial-climate-data) (Radar-based spatial climate data) - *will be realised in Q2-2025*
+- C3 - [*Ground-based* - Precipitation, Temperature, Relative Sunshine Duration](#c3---ground-based-spatial-climate-data)
+- C4 - [*Satellite-based* - Global, Diffuse & Direct Radiation, Cloud Fractional Cover](#c4---satellite-based-spatial-climate-data)
+- C5 - [*Radar-based* - Maximum Hailstone Size, Number of Hail Days](#c5---radar-based-spatial-climate-data)
 
 **Climate Normals**
 - C6 - [Climate normals](#c6---climate-normals)
